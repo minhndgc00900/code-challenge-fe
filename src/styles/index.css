@@ -1,0 +1,57 @@
+@import '~antd/dist/antd.css';
+
+body{
+    overflow-y: scroll;
+}
+
+.ant-table-thead > tr > .ant-table-cell{
+    background: #f9f9f9 url('https://minhsbucket2.s3.ap-southeast-1.amazonaws.com/background_texture.png') !important;
+    font-size: 14px;
+    font-weight: bold;
+    color: #242527;
+    text-transform: uppercase;
+}
+
+.row__spells{
+    background: url('https://minhsbucket2.s3.ap-southeast-1.amazonaws.com/1a.png') no-repeat;
+    background-size: 100% 73px;
+    height: 73px;
+}
+
+.row__spells:hover{
+    background: url('https://minhsbucket2.s3.ap-southeast-1.amazonaws.com/1a-hover.png') no-repeat;
+    background-size: 100% 73px;
+    height: 73px;
+}
+
+.ant-table-cell{
+    background-color: unset !important;
+}
+
+.row__spells > td{
+    padding: 12px 15px !important;
+}
+
+
+.row__spells > td:hover{
+    background-color: unset !important;
+}
+
+.ant-btn-primary{
+    background: linear-gradient(to bottom,#9877fa,#704cd9);
+}
+
+.ant-checkbox-indeterminate .ant-checkbox-inner::after{
+    background-color: #704cd9 !important;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #704cd9;
+    border-color: #704cd9;
+}
+
+.ant-table-tbody > tr.ant-table-row-selected {
+    background: url('https://minhsbucket2.s3.ap-southeast-1.amazonaws.com/1a-hover.png') no-repeat;
+    background-size: 100% 73px;
+    height: 73px;
+}

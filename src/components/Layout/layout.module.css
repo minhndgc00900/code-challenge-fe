@@ -1,0 +1,60 @@
+.custom_card____wrapper{
+    width: 1200px;
+    margin: 20px auto;
+}
+
+@media (max-width: 1220px) {
+    .custom_card____wrapper{
+        width: 100%;
+    }
+}
+
+.__layout{
+    background: #f9f9f9 url('https://minhsbucket2.s3.ap-southeast-1.amazonaws.com/background_texture.png') repeat !important;
+}
+
+.content__layout{
+    background: none !important;
+}
+
+.__footerLayout{
+    background-color: #141414 !important;
+    color: #979AA4 !important;
+}
+
+.footer__copyright{
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.__header{
+    background: #141414 !important;
+}
+
+.__logo{
+    width: 124px;
+    height: 42px;
+    margin-right: 25px;
+}
+
+.__menu{
+    background: transparent
+}
+
+.btn__redirect__container{
+    display: flex !important;
+    justify-content: flex-end;
+    padding: 0px 24px;
+    align-self: center;
+}
+
+.btn__redirect{
+    max-width: 255px;
+    background: black !important;
+    border: 2px solid #1b9af0;
+    border-radius: 3px;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}

@@ -1,0 +1,40 @@
+.cell__col{
+    font-size: 14px;
+    font-weight: bold;
+    color: #242527;
+    text-transform: uppercase;
+}
+
+.custom__col{
+    margin-top: 20px;
+}
+
+.__ant_table > div > div > div {
+    background: none !important;
+}
+
+.__input{
+    border-radius: 0;
+    height: 50px;
+    background-color: white;
+    box-shadow: inset 0 0 4px 0 rgb(138 177 198 / 48%);
+    border: solid 1px #d8dde3;
+    box-sizing: border-box;
+}
+
+.btn__search{
+    height: 50px !important;
+    width: 100%;
+    font-weight: bold;
+    color: #242527;
+    text-transform: uppercase;
+    align-self: flex-end !important;
+    background: linear-gradient(to bottom,#9877fa,#704cd9) !important;
+    border-color: transparent !important;
+}
+
+.page_header__primary{
+    border-bottom: 3px solid #704cd9;
+    padding-bottom: 8px;
+    padding-top: 16px;
+}
